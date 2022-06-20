@@ -1,4 +1,7 @@
+
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
+
 const Navbar = () => {
     return (
         <nav className={"navbar is-fixed-top " + styles.sm_navbar} role="navigation" aria-label="main navigation">
@@ -17,9 +20,9 @@ const Navbar = () => {
 
                 <div id="navbarBasicExample" className="navbar-menu">
                     <div className="navbar-start">
-                        <a className="navbar-item">Home</a>
-                        <a className="navbar-item"> About </a>
-                        <a className="navbar-item"> Contact </a>
+                        <Link href="/"><a className="navbar-item">Home</a></Link>
+                        <Link href="/about"><a className="navbar-item"> About </a></Link>
+                        <Link href="/contact"><a className="navbar-item"> Contact </a></Link>
                         <a className="navbar-item"> Blog </a>
                     </div>
 

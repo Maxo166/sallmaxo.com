@@ -1,13 +1,12 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
 import AvalabilityStatus from '../components/Home-components/Avalabitity-Satatus'
 import Companies from '../components/Home-components/Companies'
-import Hero from '../components/Home-components/Hero'
 import Testimonials from '../components/Home-components/Testimonials'
 import Section from '../components/Section'
 import styles from '../styles/Home.module.css'
+import Header from '../components/Header'
+import Hero from '../components/Home-components/Hero'
+
 
 export default function Home() {
   return (
@@ -18,16 +17,19 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="">
+      <main className="">           
         <Header>
           <Hero/>
-        </Header>
+        </Header>  
+        
         <Section divider={styles.sm_bottom_divider}>
           <Companies />
         </Section>
+
         <Section divider={styles.sm_bottom_divider}>
           <Testimonials/>
         </Section>
+
         <Section divider={styles.sm_bottom_divider}>
           <AvalabilityStatus />
         </Section>

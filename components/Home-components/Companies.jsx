@@ -3,8 +3,8 @@ import { SiAdobe } from "react-icons/si";
 const Companies = () => {
     return ( 
         <div className="is-flex is-flex-direction-column is-align-items-center">
-            <p className="subtitle">I had the pleasure of working with these awesome companies</p>
-            <div className="buttons are-large">
+            <p className="subtitle has-text-centered">I had the pleasure of working with these awesome companies</p>
+            <div className="buttons are-large is-justify-content-center">
                 <a className="button is-warning is-light" href=""><i><FaAmazon/></i></a>
                 <a className="button is-danger is-light" href=""><i><SiAdobe/></i></a>
                 <a className="button is-light" href=""><i><FaApple/></i></a>
