@@ -18,6 +18,8 @@ export default function Home() {
         <Header>
           <Hero/>
         </Header>
+
+        
       </main>
 
       <Section>
