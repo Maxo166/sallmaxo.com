@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 import AvalabilityStatus from '../components/Home-components/Avalabitity-Satatus'
+import Companies from '../components/Home-components/Companies'
 import Hero from '../components/Home-components/Hero'
 import Testimonials from '../components/Home-components/Testimonials'
 import Section from '../components/Section'
@@ -21,6 +22,9 @@ export default function Home() {
         <Header>
           <Hero/>
         </Header>
+        <Section divider={styles.sm_bottom_divider}>
+          <Companies />
+        </Section>
         <Section divider={styles.sm_bottom_divider}>
           <Testimonials/>
         </Section>
