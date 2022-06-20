@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
+import AvalabilityStatus from '../components/Home-components/Avalabitity-Satatus'
 import Hero from '../components/Home-components/Hero'
 import Section from '../components/Section'
 import styles from '../styles/Home.module.css'
@@ -18,13 +19,10 @@ export default function Home() {
         <Header>
           <Hero/>
         </Header>
-
-        
-      </main>
-
-      <Section>
-          <Footer />
-      </Section>        
+        <Section divider={styles.sm_bottom_divider}>
+          <AvalabilityStatus />
+        </Section>
+      </main>  
     </div>
   )
 }

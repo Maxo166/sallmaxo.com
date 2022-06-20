@@ -119,6 +119,12 @@ print */
 .sm_hero_bg{
   background-image: url("https://unsplash.it/800/1500");
 }
+.sm_top_divider{
+  border-top: 1px solid #eee;
+}
+.sm_bottom_divider {
+  border-bottom: 1px solid #eee;
+}
 @media screen and (min-width: 1024px) {
   .sm_navbar {
     min-height: 4rem;
