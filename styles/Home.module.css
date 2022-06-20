@@ -1,6 +1,6 @@
-.container {
+/* .container {
   padding: 0 2rem;
-}
+} */
 
 .main {
   min-height: 100vh;
@@ -113,9 +113,7 @@
 }
 /* @media screen and (min-width: 769px),
 print */
-.sm_hero_body{
-  padding: 3rem 0rem;
-}
+
 .sm_hero_bg{
   background-image: url("https://unsplash.it/800/1500");
 }
@@ -130,16 +128,23 @@ print */
   width: 500px;
   text-align: center;
 }
-@media screen and (min-width: 1024px) {
+
+@media screen and (min-width: 769px) {
   .sm_navbar {
     min-height: 4rem;
   }
+    .sm_hero_body {
+      width: 700px;
+    }
+  /* .sm_hero_body{
+    padding: 3rem 0rem;
+  } */
 }
   
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
-}
+} */
