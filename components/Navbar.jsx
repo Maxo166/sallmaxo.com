@@ -2,7 +2,7 @@ import styles from '../styles/Home.module.css'
 const Navbar = () => {
     return (
         <nav className={"navbar is-fixed-top " + styles.sm_navbar} role="navigation" aria-label="main navigation">
-            <div className='container'>
+            <div className={`container ${styles.container}`}>
                 <div className="navbar-brand">
                     <a className="navbar-item" href="https://bulma.io">
                         <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"/>
