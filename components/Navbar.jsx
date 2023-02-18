@@ -20,9 +20,9 @@ const Navbar = () => {
 
                 <div id="navbarBasicExample" className="navbar-menu">
                     <div className="navbar-start">
-                        <Link href="/"><a className="navbar-item">Home</a></Link>
-                        <Link href="/about"><a className="navbar-item"> About </a></Link>
-                        <Link href="/contact"><a className="navbar-item"> Contact </a></Link>
+                        <Link legacyBehavior href="/"><a className="navbar-item">Home</a></Link>
+                        <Link legacyBehavior href="/about"><a className="navbar-item"> About </a></Link>
+                        <Link legacyBehavior href="/contact"><a className="navbar-item"> Contact </a></Link>
                         <a className="navbar-item"> Blog </a>
                     </div>
 
